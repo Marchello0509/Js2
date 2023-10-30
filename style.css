@@ -1,0 +1,62 @@
+.forcenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.forcenter_block {
+  margin-top: 75px;
+  width: 1116px;
+  height: 297px;
+  border-radius: 12px;
+  border: 6px solid #000;
+  background: #D9D9D9;
+}
+.forcenter_block_p1 {
+  margin-top: 25px;
+  margin-left: 125px;
+}
+.forcenter_block_input1 {
+  margin-top: 15px;
+  margin-left: 125px;
+}
+.forcenter_block_input2 {
+  margin-top: 15px;
+  margin-left: 125px;
+  width: 400px;
+  height: 75px;
+}
+.forcenter_block_forbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.forcenter_block_forbtn_btn {
+  width: 219px;
+  height: 47px;
+  background: #FFF;
+  margin-top: 25px;
+  cursor: pointer;
+  border-radius: 12px;
+  border: 2px solid #000;
+}
+
+.forcent {
+  display: flex;
+  justify-content: center;
+}
+.forcent_block {
+  width: 716px;
+  height: 110px;
+  border-radius: 12px;
+  border: 6px solid #000;
+  background: #D9D9D9;
+  margin-top: 85px;
+}
+.forcent_block_username {
+  margin-top: 32px;
+  margin-left: 33px;
+}
+.forcent_block_text {
+  margin-top: 8px;
+  margin-left: 33px;
+}/*# sourceMappingURL=style.css.map */

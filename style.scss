@@ -1,0 +1,68 @@
+@mixin FlexElement($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin ForBlocks ($justify) {
+    display: flex;
+    justify-content: $justify;
+}
+
+.forcenter {
+    @include FlexElement(center,center);
+    &_block {
+        margin-top: 75px;
+        width: 1116px;
+        height: 297px;
+        border-radius: 12px;
+        border: 6px solid #000;
+        background: #D9D9D9;
+        &_p1 {
+            margin-top: 25px;
+            margin-left: 125px;
+        }
+        &_input1 {
+            margin-top: 15px;
+            margin-left: 125px;
+        }
+        &_input2 {
+            margin-top: 15px;
+            margin-left: 125px;
+            width: 400px;
+            height: 75px;
+
+        }
+        &_forbtn {
+            @include FlexElement(center,center);
+            &_btn {
+                width: 219px;
+                height: 47px;
+                background: #FFF;
+                margin-top: 25px;
+                cursor: pointer;
+                border-radius: 12px;
+                border: 2px solid #000;
+            }
+        }
+    }
+}
+.forcent {
+    @include ForBlocks(center);
+    &_block {
+        width: 716px;
+        height: 110px;
+        border-radius: 12px;
+        border: 6px solid #000;
+        background: #D9D9D9;
+        margin-top: 85px;
+        &_username {
+            margin-top: 32px;
+            margin-left: 33px;
+        }
+        &_text {
+            margin-top: 8px;
+            margin-left: 33px;
+        }
+    }
+}
