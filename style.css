@@ -59,4 +59,42 @@
 .forcent_block_text {
   margin-top: 8px;
   margin-left: 33px;
+}
+
+.block2 {
+  display: flex;
+  justify-content: center;
+}
+.block2_forcent2_block {
+  width: 716px;
+  height: 110px;
+  border-radius: 12px;
+  border: 6px solid #000;
+  background: #D9D9D9;
+  margin-top: 85px;
+}
+.block2_forcent2_block_username {
+  margin-top: 32px;
+  margin-left: 33px;
+}
+.block2_forcent2_block_text {
+  margin-top: 8px;
+  margin-left: 33px;
+}
+
+.newCom_block {
+  width: 716px;
+  height: 110px;
+  border-radius: 12px;
+  border: 6px solid #000;
+  background: #D9D9D9;
+  margin-top: 85px;
+}
+.newCom_block_username {
+  margin-top: 32px;
+  margin-left: 33px;
+}
+.newCom_block_text {
+  margin-top: 8px;
+  margin-left: 33px;
 }/*# sourceMappingURL=style.css.map */
